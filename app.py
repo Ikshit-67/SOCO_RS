@@ -30,3 +30,5 @@ if st.button("Recommend"):
     recommendations = recommend(selected_blog_name)
     for blogs in recommendations:
         st.write(blogs)
+
+# DONE
